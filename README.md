@@ -1,17 +1,19 @@
-# Quartz v4
+# obsidian-blog
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+## Overview
+- ** [quartz 4](https://github.com/jackyzha0/quartz) ** 를 사용한 obsidian-vault 블로그
+- 홈 서버에서 nginx를 이용하여 호스팅
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Requirements
+- node.js
+- npm
+- docker
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Usage
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+### Build
+```bash
+npx quartz build
+```
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+<img width="1470" height="801" alt="image" src="https://github.com/user-attachments/assets/af6b0f51-9a77-4a6e-85bd-72c781fd0506" />
