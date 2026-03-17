@@ -1,7 +1,7 @@
 # obsidian-blog
 
 ## Overview
-- ** [quartz 4](https://github.com/jackyzha0/quartz) ** 를 사용한 obsidian-vault 블로그
+- [quartz 4](https://github.com/jackyzha0/quartz)를 사용한 obsidian-vault 블로그
 - 홈 서버에서 nginx를 이용하여 호스팅
 
 ## Requirements
