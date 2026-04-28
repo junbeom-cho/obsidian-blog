@@ -2,7 +2,7 @@ FROM node:22-alpine AS builder
 
 WORKDIR /app
 
-RUN apk add -no-cache coreutils
+RUN apk add --no-cache coreutils
 
 COPY package.json package-lock.json ./
 RUN npm ci
