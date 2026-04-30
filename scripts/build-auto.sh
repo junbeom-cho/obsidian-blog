@@ -8,7 +8,7 @@ echo "Quartz 자동 빌드 중..."
 echo "============================================="
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "NVM_DIR/nvm.sh" ] && \. "NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # 빌드
 cd /home/junbeom/quartz-blog/
