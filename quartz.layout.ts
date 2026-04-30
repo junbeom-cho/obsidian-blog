@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/junbeom-cho/quartz-blog",
-      UptimeKuma: "https://kuma.junbeom.work/status/obsidian-blog"
+      "Uptime Kuma": "https://kuma.junbeom.work/status/obsidian-blog"
     },
   }),
 }
@@ -35,7 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() }
-        //{ Component: Component.ReaderMode() },
+        // { Component: Component.ReaderMode() }
       ],
     }),
     Component.Explorer(),
