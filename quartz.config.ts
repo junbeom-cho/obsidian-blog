@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Sans KR",
-        body: "Noto Sans KR",
-        code: "JetBrains Mono",
+        header: "sans-serif",
+        body: "sans-serif",
+        code: "monospace",
       },
       colors: {
         lightMode: {
