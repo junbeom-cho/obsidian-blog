@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "ko-KR",
     baseUrl: "obsidian.junbeom.work",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
