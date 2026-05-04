@@ -1,2 +1,2 @@
 #!/bin/zsh
-npx quartz build --serve --directory "/home/user/projects/obsidian-vault/"
+npx quartz build --serve --directory "/Users/junbeom/project/obsidian-vault"
