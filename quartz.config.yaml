@@ -175,7 +175,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
@@ -198,10 +198,18 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/junbeom-cho/quartz
+        Uptime-Kuma: https://kuma.techbara.dev/status/quartz
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      limit: 3
+      showTags: true
+      hideTagPages: false
+      hideFolderPages: false
+    layout:
+      position: left
+      priority: 100
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
