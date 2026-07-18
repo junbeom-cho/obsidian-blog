@@ -5,7 +5,9 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: umami
+    host: https://umami.techbara.dev
+    websiteId: d22f4cb7-e0fa-45dc-a976-26c49ad6feec
   locale: ko-KR
   baseUrl: quartz.jzhao.xyz
   ignorePatterns:
