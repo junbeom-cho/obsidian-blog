@@ -75,6 +75,8 @@ plugins:
     layout:
       position: right
       priority: 30
+      display: desktop-only
+      condition: has-toc
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -137,6 +139,7 @@ plugins:
     layout:
       position: right
       priority: 10
+      display: desktop-only
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -150,6 +153,7 @@ plugins:
     layout:
       position: right
       priority: 50
+      condition: has-backlinks
   - source: github:quartz-community/article-title
     enabled: true
     layout:
@@ -207,11 +211,12 @@ plugins:
     options:
       limit: 3
       showTags: true
-      hideTagPages: false
-      hideFolderPages: false
+      hideTagPages: true
+      hideFolderPages: true
     layout:
       position: left
       priority: 100
+      display: desktop-only
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -240,7 +245,8 @@ plugins:
     layout:
       position: beforeBody
       priority: 15
-      display: all
+      display: desktop-only
+      condition: has-tags
   - source: github:quartz-community/unlisted-pages
     enabled: true
     options: {}
